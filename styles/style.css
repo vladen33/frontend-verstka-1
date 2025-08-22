@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+
+  background-color: black;
+}
+
+.header__logo {
+  background-color: aquamarine;
+}
+
+.header__logo-image {
+  height: 16px;
+  width: 83px;
+  margin: 30px 39px 34px;
+}
+
+.header__menu {
+  width: 100%;
+  font-size: 16px;
+  font-family: Inter;
+  color: white;
+  background-color: cadetblue;
+
+
+}
+
+.header__menu-list {
+  margin-top: 30px;
+  margin-right: 39px;
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+}
+
+.header__menu-list-item {
+
+}
