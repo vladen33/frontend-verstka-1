@@ -1,17 +1,15 @@
 .header {
   display: flex;
-
   background-color: black;
 }
 
 .header__logo {
-  background-color: aquamarine;
 }
 
 .header__logo-image {
-  height: 16px;
+  height: 18px;
   width: 83px;
-  margin: 30px 39px 34px;
+  margin: 30px 39px 28px;
 }
 
 .header__menu {
@@ -19,9 +17,6 @@
   font-size: 16px;
   font-family: Inter;
   color: white;
-  background-color: cadetblue;
-
-
 }
 
 .header__menu-list {
@@ -33,6 +28,33 @@
   justify-content: flex-end;
 }
 
-.header__menu-list-item {
+/* .header__menu-list-item {
+  border-bottom: 1.5px solid currentColor;
+} */
 
+.header__menu-list-item-link {
+  text-underline-offset: 2.5px;
+  text-decoration-thickness: 1.5px;
+}
+
+.header__menu-list-item-link.active-link {
+  text-decoration: none;
+}
+
+.main__title {
+    background-color: #2f2c45;
+    height: 382px;
+}
+
+.main__title-text {
+  font-size: 50px;
+  color: #fff;
+  padding-left: 39px;
+  padding-top: 116px;
+  padding-right: 39px;
+  line-height: 100%;
+}
+
+.main__intro {
+  background-color: aquamarine;
 }
