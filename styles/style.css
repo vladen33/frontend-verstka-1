@@ -3,9 +3,6 @@
   background-color: black;
 }
 
-.header__logo {
-}
-
 .header__logo-image {
   height: 18px;
   width: 83px;
@@ -57,7 +54,7 @@
 }
 
 .main__intro {
-  margin: 60px 39px 60px;
+  margin: 60px 39px 58px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -75,7 +72,7 @@
 .main__content {
   background-color: #2F2C45;
   color: #fff;
-  padding: 62px 39px;
+  padding: 60px 39px 56px;
 }
 
 .main__content-title {
@@ -90,7 +87,6 @@
   column-gap: 30px;
   row-gap: 40px;
   list-style: none;
-  /* background-color: aqua; */
 }
 
 .main__cards-item {
@@ -149,12 +145,90 @@
   border-bottom-right-radius: 20px;
 }
 
-.main__cards-item-content-title {
+.main__cards-item-content-title {  
   font-size: 30px;
+  font-weight: normal;
   margin: 30px 30px 15px;
 }
 
 .main__cards-item-content-text {
   font-size: 20px;
   margin: 15px 30px 30px;
+  line-height: 150%;
+}
+
+.main__advice-intro {
+  padding: 60px 39px 58px;
+  background-color: #F2C94C;
+  font-size: 30px;
+}
+
+.text-accent-green {
+  color: #589F46;
+
+}
+.text-accent-violet {
+  color: #7125BC;
+}
+
+.main__advice {
+  padding: 60px 39px 0;
+}
+
+.main__advice-title {
+  font-size: 50px;
+}
+
+.main__advice-list {
+  font-size: 20px;
+  list-style: none;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.05px;
+}
+
+.main__advice-list li {
+  padding-bottom: 20px;
+}
+
+.main__advice-list li::before {
+    content: "− "; 
+    display: inline-block;
+    font-weight: bold;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+}
+
+.footer__logo-image {
+  height: 18px;
+  width: 83px;
+  margin: 30px 39px 28px;
+}
+
+.footer__social {
+  width: 100%;
+  font-size: 16px;
+  font-family: Inter;
+  color: white;
+}
+
+.footer__social-list {
+  margin-top: 30px;
+  margin-right: 39px;
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+}
+
+.header__social-list-item-link {
+  text-underline-offset: 2.5px;
+  text-decoration-thickness: 1.5px;
 }
